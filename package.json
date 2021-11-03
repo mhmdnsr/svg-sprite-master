@@ -9,12 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.0.16",
+    "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^4.1.17",
+    "hast-util-to-html": "^8.0.2",
+    "jszip": "^3.7.1",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.43.3",
+    "svg-parser": "^2.0.4"
   },
   "devDependencies": {
+    "@types/file-saver": "^2.0.3",
     "@types/react": "17.0.32",
+    "@types/svg-parser": "^2.0.3",
     "eslint": "8.1.0",
     "eslint-config-next": "11.1.2",
     "typescript": "4.4.4"

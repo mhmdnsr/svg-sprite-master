@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SVG SPRITE MASTER
+## _SVG Sprite Master is your SVG parser_
 
-## Getting Started
+### SVG Sprite Master is meant to be an enabler to any svg sprite user to parse the sprite to show all svgs in the sprite and download one or more svg files in the sprite all you have to do is upload your svg sprite.
 
-First, run the development server:
+------------------------
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Parse (Selected or Dragged-Dropped) SVG Sprite
+- Download one or all svgs included in selected sprite
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Coming Soon
+- Add svg to the sprite and generate a new svg sprite
+- Delete svg from the sprite and generate a new svg sprite
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Tech
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+_SVG Sprite Master_ uses a number of open source projects to work properly:
 
-## Learn More
+- [ReactJs] - A JavaScript library for building user interfaces.
+- [NextJs] - The React Framework for Production.
+- [ChakraUI] - Create accessible React apps with speed.
+- [Svg-Parser] - Create a JSON-friendly object from an SVG string.
+- [Hast-Util-To-Html] - Transform HAST to HTML.
+- [File-Saver] - For Saving Files.
+- [JsZip] - For Zipping Files.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Apache
